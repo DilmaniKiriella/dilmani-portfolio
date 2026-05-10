@@ -1,0 +1,22 @@
+{
+  "name": "dilmani-kiriella-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deployment-ready handcrafted portfolio website for Dilmani Kiriella",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pdf": "node scripts/export-pdf.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "framer-motion": "latest"
+  },
+  "devDependencies": {}
+}
